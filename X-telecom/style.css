@@ -1,0 +1,60 @@
+
+
+.navbar
+{
+   background:#EFF3F5; 
+}
+.nav-item{
+  margin: 0 15px;
+}
+.nav-link{
+  color: black;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  /*font-weight: bold;*/
+  /*text-transform: uppercase;*/
+}
+.nav-link.active{
+  background: orange;
+  transition: .5s;
+}
+.nav-link{
+color: black;
+}
+/**/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+
+  /*color: white;*/
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 4px;
+
+
+  width: 50px;
+  height: 50px;
+  background: #F39C12;
+
+
+  
+  text-align: center;
+
+  color: white;
+
+}
+
+#myBtn:hover {
+  background-color: #27ae60;
+}
+html{
+  scroll-behavior: smooth;
+}
